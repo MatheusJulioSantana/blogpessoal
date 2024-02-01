@@ -49,6 +49,14 @@ public class Postagem {
 		return this.id;
 	}
 
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
 	public void setId(Long id) {
 		this.id = id;
 	}
